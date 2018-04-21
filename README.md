@@ -22,8 +22,6 @@ TabLayout with ViewPager Fragmen Dynamic
             app:tabTextAppearance="@style/TextAppearance.Design.Tab"
             android:overScrollMode="never" />
 
-    </android.support.design.widget.AppBarLayout>
-
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
