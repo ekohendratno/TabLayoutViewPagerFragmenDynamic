@@ -8,7 +8,7 @@ TabLayout with ViewPager Fragmen Dynamic
 ![Screenshot](https://github.com/ekohendratno/TabLayoutViewPagerFragmenDynamic/blob/master/sc2.png)
 
 # Step
-## 1. lyt_aktivityku.xml
+## lyt_aktivityku.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -72,7 +72,7 @@ TabLayout with ViewPager Fragmen Dynamic
 </android.support.design.widget.CoordinatorLayout>
 
 
-## 1. fragment.xml
+## fragment.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -98,7 +98,7 @@ TabLayout with ViewPager Fragmen Dynamic
 </RelativeLayout>
 
 
-## 1. fragment.xml
+## Activityku.java
 
 package id.kopas.berkarya.jadwalsekolah;
 
