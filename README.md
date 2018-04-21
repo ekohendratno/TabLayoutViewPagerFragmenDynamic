@@ -10,36 +10,7 @@ TabLayout with ViewPager Fragmen Dynamic
 # Step
 ## lyt_aktivityku.xml
 
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="id.kopas.berkarya.jadwalsekolah.Activityku">
-
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/AppTheme.PopupOverlay">
-
-        <TextView
-            android:id="@+id/toolbar_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
-            android:layout_gravity="center" />
-
-        </android.support.v7.widget.Toolbar>
+....
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
@@ -60,28 +31,12 @@ TabLayout with ViewPager Fragmen Dynamic
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/ic_add_white_24dp" />
-
-</android.support.design.widget.CoordinatorLayout>
+....
 
 
 ## fragment.xml
 
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    tools:context="id.kopas.berkarya.jadwalsekolah.Activityku">
+....
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
@@ -95,7 +50,7 @@ TabLayout with ViewPager Fragmen Dynamic
         android:visibility="gone"
         android:text="@string/no_data_available" />
 
-</RelativeLayout>
+....
 
 
 ## Activityku.java
