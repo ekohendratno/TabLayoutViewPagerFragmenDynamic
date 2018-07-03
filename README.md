@@ -2,6 +2,10 @@
 
 TabLayout with ViewPager Fragmen Dynamic with Dialog and Fab Action Button
 
+#Download APK Play Store
+
+https://play.google.com/store/apps/details?id=id.kopas.berkarya.jadwalsekolah
+
 # Screenshoot
 
 ![Screenshot](https://github.com/ekohendratno/TabLayoutViewPagerFragmenDynamic/blob/master/sc1.png)
@@ -97,7 +101,7 @@ public class Activityku extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return PlaceholderFragment .newInstance(tabtitles.get(position));
+            return PlaceholderFragment.newInstance(tabtitles.get(position));
         }
 
         @Override
